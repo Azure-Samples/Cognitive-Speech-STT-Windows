@@ -24,6 +24,21 @@ Recognition -in addition to returning recognized text from audio input- returns
 structured information about the incoming speech so that apps can easily parse
 the intent of the speaker, and subsequently drive further action.
 
+The client library
+==================
+
+The Speech To Text API client library is a thin C\# client wrapper for Microsoft Cognitive Services (formerly Project Oxford) Speech To Text
+REST APIs.  
+
+The easiest way to use this client library is to get microsoft.projectoxford.vision package from [nuget](<http://nuget.org>).
+
+There are two nuget packages. One is for x86 build, and one is for x64 build.
+
+For x86 package, please go to [Speech Recognition API x86 Package in nuget](https://www.nuget.org/packages/Microsoft.ProjectOxford.SpeechRecognition-x86/) for more details.
+
+For x64 package, please go to [Speech Recognition API x64 Package in nuget](https://www.nuget.org/packages/Microsoft.ProjectOxford.SpeechRecognition-x64/) for more details.
+
+
 The sample
 ==========
 
