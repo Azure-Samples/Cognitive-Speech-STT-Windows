@@ -45,6 +45,10 @@ Locate the text edit box saying "Paste your subscription key here to start" on t
 
 Microsoft will receive the audio you upload and may use them to improve the Bing Speech API and related services. By submitting an audio, you confirm you have consent from everyone in it.
 
+### Deply the sample
+If the need to install the 'Visual C++ Redistributable for Visual Studio 2015' when you want to run in an environment outside of the development environment. 
+Will not install if you encounter run-time errors.
+
 ## Contributing
 We welcome contributions. Feel free to file issues and pull requests on the repo and we'll address them as we can. Learn more about how you can help on our [Contribution Rules & Guidelines](</CONTRIBUTING.md>). 
 
