@@ -31,7 +31,6 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // </copyright>
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration;
 using System.Diagnostics;
@@ -56,42 +55,7 @@ namespace MicrosoftProjectOxfordExample
         /// <summary>
         /// The default subscription key prompt message
         /// </summary>
-        private const string DefaultSubscriptionKeyPromptMessage = "2165dac6afa54a7aa2b09af243995d7e";
-
-        /// <summary>
-        /// The list of supported locales
-        /// </summary>
-        private readonly List<string> SupportedLocaleList = new List<string>()
-        {
-            "ar-EG",
-            "ca-ES",
-            "da-DK",
-            "de-DE",
-            "en-AU",
-            "en-CA",
-            "en-GB",
-            "en-IN",
-            "en-NZ",
-            "en-US",
-            "es-ES",
-            "es-MX",
-            "fi-FI",
-            "fr-CA",
-            "fr-FR",
-            "it-IT",
-            "ja-JP",
-            "ko-KR",
-            "nb-NO",
-            "nl-NL",
-            "pl-PL",
-            "pt-BR",
-            "pt-PT",
-            "ru-RU",
-            "sv-SE",
-            "zh-CN",
-            "zh-HK",
-            "zh-TW"
-        };
+        private const string DefaultSubscriptionKeyPromptMessage = "Paste your subscription key here to start";
 
         /// <summary>
         /// You can also put the primary key in app.config, instead of using UI.
@@ -278,27 +242,6 @@ namespace MicrosoftProjectOxfordExample
         }
 
         /// <summary>
-        /// Gets the selected locale.
-        /// </summary>
-        /// <value>
-        /// A locale if one is selected in the combobox. Otherwise, the default locale.
-        /// </value>
-        private string SelectedLocale
-        {
-            get
-            {
-                if (this._localeComboBox.SelectedIndex >= 0)
-                {
-                    return (string)this._localeComboBox.SelectedValue;
-                }
-                else
-                {
-                    return this.DefaultLocale;
-                }
-            }
-        }
-
-        /// <summary>
         /// Gets the short wave file path.
         /// </summary>
         /// <value>
@@ -378,9 +321,6 @@ namespace MicrosoftProjectOxfordExample
             // Set the default choice for the group of checkbox.
             this._micRadioButton.IsChecked = true;
 
-            // Set the supported locale list to the combobox
-            this._localeComboBox.ItemsSource = this.SupportedLocaleList;
-
             this.SubscriptionKey = this.GetSubscriptionKeyFromIsolatedStorage();
         }
 
@@ -449,7 +389,7 @@ namespace MicrosoftProjectOxfordExample
                 recoSource = "long wav file";
             }
 
-            this.WriteLine("\n--- Start speech recognition using " + recoSource + " with " + this.Mode + " mode in " + this.SelectedLocale + " language ----\n\n");
+            this.WriteLine("\n--- Start speech recognition using " + recoSource + " with " + this.Mode + " mode in " + this.DefaultLocale + " language ----\n\n");
         }
 
         /// <summary>
@@ -459,7 +399,7 @@ namespace MicrosoftProjectOxfordExample
         {
             this.micClient = SpeechRecognitionServiceFactory.CreateMicrophoneClient(
                 this.Mode,
-                this.SelectedLocale,
+                this.DefaultLocale,
                 this.SubscriptionKey,
                 this.SubscriptionKey);
 
@@ -487,7 +427,7 @@ namespace MicrosoftProjectOxfordExample
 
             this.micClient =
                 SpeechRecognitionServiceFactory.CreateMicrophoneClientWithIntent(
-                this.SelectedLocale,
+                this.DefaultLocale,
                 this.SubscriptionKey,
                 this.SubscriptionKey,
                 this.LuisAppId,
@@ -522,7 +462,7 @@ namespace MicrosoftProjectOxfordExample
         {
             this.dataClient = SpeechRecognitionServiceFactory.CreateDataClient(
                 this.Mode,
-                this.SelectedLocale,
+                this.DefaultLocale,
                 this.SubscriptionKey,
                 this.SubscriptionKey);
 
@@ -550,7 +490,7 @@ namespace MicrosoftProjectOxfordExample
         private void CreateDataRecoClientWithIntent()
         {
             this.dataClient = SpeechRecognitionServiceFactory.CreateDataClientWithIntent(
-                this.SelectedLocale,
+                this.DefaultLocale,
                 this.SubscriptionKey,
                 this.SubscriptionKey,
                 this.LuisAppId,
@@ -928,16 +868,6 @@ namespace MicrosoftProjectOxfordExample
             this._logText.Text = string.Empty;
             this._startButton.IsEnabled = true;
             this._radioGroup.IsEnabled = true;
-        }
-
-        /// <summary>
-        /// Handles the SelectionChanged event of the ComboBox.
-        /// </summary>
-        /// <param name="sender">The source of the event.</param>
-        /// <param name="e">The <see cref="RoutedEventArgs"/> instance containing the event data.</param>
-        private void _localeComboBox_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
-        {
-            this.micClient = null;
         }
     }
 }
