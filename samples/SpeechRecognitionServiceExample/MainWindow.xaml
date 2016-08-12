@@ -41,6 +41,10 @@
                     <Label Margin="30,0,0,0">(* LUIS registration is needed.)</Label>
                 </StackPanel>
             </GroupBox>
+            <StackPanel Grid.Row="1" Orientation="Vertical" Margin="10,10,10,10">
+                <Label>Speech Recognition Locale:</Label>
+                <ComboBox x:Name="_localeComboBox" SelectionChanged="_localeComboBox_SelectionChanged"></ComboBox>
+            </StackPanel>
             <Grid Grid.Row="2" Margin="10, 0, 10, 10">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="auto"></ColumnDefinition>
