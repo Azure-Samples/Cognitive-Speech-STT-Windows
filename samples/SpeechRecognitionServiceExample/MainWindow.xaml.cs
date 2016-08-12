@@ -56,7 +56,7 @@ namespace MicrosoftProjectOxfordExample
         /// <summary>
         /// The default subscription key prompt message
         /// </summary>
-        private const string DefaultSubscriptionKeyPromptMessage = "2165dac6afa54a7aa2b09af243995d7e";
+        private const string DefaultSubscriptionKeyPromptMessage = "Paste your subscription key here to start";
 
         /// <summary>
         /// The list of supported locales
