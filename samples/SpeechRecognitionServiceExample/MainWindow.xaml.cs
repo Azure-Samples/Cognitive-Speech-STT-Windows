@@ -30,18 +30,18 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // </copyright>
-using System;
-using System.ComponentModel;
-using System.Configuration;
-using System.Diagnostics;
-using System.IO;
-using System.IO.IsolatedStorage;
-using System.Runtime.CompilerServices;
-using System.Windows;
-using Microsoft.ProjectOxford.SpeechRecognition;
 
-namespace MicrosoftProjectOxfordExample
+namespace Microsoft.CognitiveServices.SpeechRecognition
 {
+    using System;
+    using System.ComponentModel;
+    using System.Configuration;
+    using System.Diagnostics;
+    using System.IO;
+    using System.IO.IsolatedStorage;
+    using System.Runtime.CompilerServices;
+    using System.Windows;
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -400,7 +400,6 @@ namespace MicrosoftProjectOxfordExample
             this.micClient = SpeechRecognitionServiceFactory.CreateMicrophoneClient(
                 this.Mode,
                 this.DefaultLocale,
-                this.SubscriptionKey,
                 this.SubscriptionKey);
 
             // Event handlers for speech recognition results
@@ -428,7 +427,6 @@ namespace MicrosoftProjectOxfordExample
             this.micClient =
                 SpeechRecognitionServiceFactory.CreateMicrophoneClientWithIntent(
                 this.DefaultLocale,
-                this.SubscriptionKey,
                 this.SubscriptionKey,
                 this.LuisAppId,
                 this.LuisSubscriptionID);
@@ -463,7 +461,6 @@ namespace MicrosoftProjectOxfordExample
             this.dataClient = SpeechRecognitionServiceFactory.CreateDataClient(
                 this.Mode,
                 this.DefaultLocale,
-                this.SubscriptionKey,
                 this.SubscriptionKey);
 
             // Event handlers for speech recognition results
@@ -491,7 +488,6 @@ namespace MicrosoftProjectOxfordExample
         {
             this.dataClient = SpeechRecognitionServiceFactory.CreateDataClientWithIntent(
                 this.DefaultLocale,
-                this.SubscriptionKey,
                 this.SubscriptionKey,
                 this.LuisAppId,
                 this.LuisSubscriptionID);

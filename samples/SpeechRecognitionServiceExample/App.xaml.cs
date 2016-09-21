@@ -30,11 +30,12 @@
 // OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // </copyright>
-using System;
-using System.Windows;
 
-namespace MicrosoftProjectOxford
+namespace Microsoft.CognitiveServices.SpeechRecognition
 {
+    using System;
+    using System.Windows;
+
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>

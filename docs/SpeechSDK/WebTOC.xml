@@ -1,205 +1,204 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HelpTOC>
 
-  <HelpTOCNode Id="909d2360-c847-433a-9a61-5b13c9996f9e" Title="Microsoft.ProjectOxford.SpeechRecognition" Url="html/3619e220-aff7-cb66-df2b-487ef35584e1.htm">
-    <HelpTOCNode Id="c3bd8119-c9a2-4804-8a6a-0c1da5c15814" Title="AdmRecoOnlyPreferences Class" Url="html/3708c95e-0ce6-2dbe-6e04-f383b194bdbc.htm">
-      <HelpTOCNode Title="AdmRecoOnlyPreferences Constructor " Url="html/b407e050-f291-a36f-92d4-a27a1b392792.htm" />
-      <HelpTOCNode Title="AdmRecoOnlyPreferences Methods" Url="html/2d3a0647-0ff4-2336-2157-853daff4092a.htm" />
-      <HelpTOCNode Id="029ef8a0-6d0e-42d7-a4f4-d2fb51b88fcb" Title="AdmRecoOnlyPreferences Properties" Url="html/1523d68c-2d51-da6b-8d28-5f8a07dd1d8f.htm">
-        <HelpTOCNode Title="AuthenticationScheme Property " Url="html/4321a056-96aa-b1be-6252-caa411deaf9f.htm" />
-        <HelpTOCNode Title="ClientId Property " Url="html/44e50ee8-b728-1c5b-4c61-833496e8ba75.htm" />
-        <HelpTOCNode Title="ClientSecret Property " Url="html/1426eb3d-cda0-9d79-b73d-73397f6e625d.htm" />
-        <HelpTOCNode Title="ClientVersion Property " Url="html/5c80832e-9600-1400-5a2c-c32fdb54f591.htm" />
-        <HelpTOCNode Title="IAASEnabled Property " Url="html/427243d0-8027-1c32-2fd0-ed647cf440ca.htm" />
-        <HelpTOCNode Title="LuisAppId Property " Url="html/780be817-11d0-e4b3-f9c3-73d58938b0f0.htm" />
-        <HelpTOCNode Title="LuisSubscriptionId Property " Url="html/d3685a95-75bf-2592-0b7b-73c4944f1b55.htm" />
-        <HelpTOCNode Title="TTSEnabled Property " Url="html/7ee75c0d-ee8f-f0b9-c3d2-c11f10f4aa28.htm" />
-        <HelpTOCNode Title="UxAppSupport Property " Url="html/ba84f9f8-3b24-c661-cc67-b85c8203a4ea.htm" />
+  <HelpTOCNode Id="fe73b741-17b2-4e7c-b16e-6b6fd046305e" Title="Microsoft.CognitiveServices.SpeechRecognition" Url="html/db803a8f-b4c1-a049-00c7-4bf3472fc8cc.htm">
+    <HelpTOCNode Id="c7d9cf19-cad3-490e-a25b-932807e82027" Title="AdmRecoOnlyPreferences Class" Url="html/1c2adb24-c57b-3263-091a-4e911fb5b2c7.htm">
+      <HelpTOCNode Title="AdmRecoOnlyPreferences Constructor " Url="html/70a20035-e71d-84db-071a-67c448f545e2.htm" />
+      <HelpTOCNode Title="AdmRecoOnlyPreferences Methods" Url="html/da7daf35-6fb3-cfec-98be-d1332a06c4fb.htm" />
+      <HelpTOCNode Id="2dee2e20-976a-4aac-8c74-ad7ac6bf9d1e" Title="AdmRecoOnlyPreferences Properties" Url="html/7991ffcb-3b4f-2e2f-fa65-753aa127a565.htm">
+        <HelpTOCNode Title="AuthenticationScheme Property " Url="html/2007dc8a-f730-df51-f0ea-bff31912a54a.htm" />
+        <HelpTOCNode Title="ClientId Property " Url="html/416ae70b-e7ed-ea7a-968b-99c613d0074f.htm" />
+        <HelpTOCNode Title="ClientVersion Property " Url="html/7b2ffe10-9bc8-787d-0d1b-12eb8dff8093.htm" />
+        <HelpTOCNode Title="IAASEnabled Property " Url="html/f1cdae2e-87f3-d1e1-d43d-14890583964f.htm" />
+        <HelpTOCNode Title="LuisAppId Property " Url="html/1b46c021-3127-c4b9-7ee1-0aad27067265.htm" />
+        <HelpTOCNode Title="LuisSubscriptionId Property " Url="html/b00aff2f-f638-de90-b212-7a203deb2a1f.htm" />
+        <HelpTOCNode Title="TTSEnabled Property " Url="html/7d6ac593-3c99-129a-f14e-ecd7a92baaea.htm" />
+        <HelpTOCNode Title="UxAppSupport Property " Url="html/5a55257e-d110-7c2c-58f3-aa8ec7f2b1d3.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Title="AudioCompressionType Enumeration" Url="html/1310c673-68e9-7f2d-a4b6-85b5fd9c0cc9.htm" />
-    <HelpTOCNode Title="Confidence Enumeration" Url="html/c5054e88-329c-e496-4fa0-d4d923e86674.htm" />
-    <HelpTOCNode Id="13bd9a0c-4026-4823-aab3-481b829faf2f" Title="Conversation Class" Url="html/be87d9d0-c8eb-52cc-d0f9-453b00138a68.htm">
-      <HelpTOCNode Title="Conversation Constructor " Url="html/106407ce-59c4-16fc-8336-f95a3c91c101.htm" />
-      <HelpTOCNode Id="16c7fd3c-2c44-49f9-ac75-8db2fecfd9f5" Title="Conversation Methods" Url="html/5fc1f26a-88a8-1bfe-92f5-ea59c819d13e.htm">
-        <HelpTOCNode Title="AudioStart Method " Url="html/03ac70ba-0aa1-b4c9-45d2-d84bab8c2a31.htm" />
-        <HelpTOCNode Title="AudioStop Method " Url="html/e47820eb-1180-23ca-9859-5c25fd2e86a9.htm" />
-        <HelpTOCNode Id="add537be-6c8b-422e-998a-d652e779acb3" Title="CreateAudioStream Method " Url="html/60190da5-7d72-ce67-d889-dc508d61b4bc.htm">
-          <HelpTOCNode Title="CreateAudioStream Method " Url="html/b832909c-e150-7307-161a-11cc046c65c1.htm" />
-          <HelpTOCNode Title="CreateAudioStream Method (SpeechAudioFormat)" Url="html/ecca8450-ab2d-f63b-0989-2beb5726880c.htm" />
+    <HelpTOCNode Title="AudioCompressionType Enumeration" Url="html/67ef78b0-5bb9-8133-48e0-a4b639538e2c.htm" />
+    <HelpTOCNode Title="Confidence Enumeration" Url="html/285f358c-43a9-37f6-d39d-012a881dac57.htm" />
+    <HelpTOCNode Id="0737176c-62fc-45c8-8969-30563f4d7bfb" Title="Conversation Class" Url="html/f5073a3c-4acc-086f-7a04-442b493e5b62.htm">
+      <HelpTOCNode Title="Conversation Constructor " Url="html/e2f60018-3913-f15b-c981-594a7e77be6d.htm" />
+      <HelpTOCNode Id="d7a4ad17-2640-420e-9e8a-1bee1a540319" Title="Conversation Methods" Url="html/01795a8e-9178-88b1-5084-0be76889f0b9.htm">
+        <HelpTOCNode Title="AudioStart Method " Url="html/6fcab149-03f3-4e76-767e-a8e118f3aab6.htm" />
+        <HelpTOCNode Title="AudioStop Method " Url="html/72f322da-0903-4f9f-27fa-76337828bfc7.htm" />
+        <HelpTOCNode Id="0faeb666-c21e-4c50-9286-73427ee6a498" Title="CreateAudioStream Method " Url="html/6dc60a14-670c-ee6a-a3a4-70e77efd200a.htm">
+          <HelpTOCNode Title="CreateAudioStream Method " Url="html/ee6c40ff-c830-6809-8357-deaaedc6dbea.htm" />
+          <HelpTOCNode Title="CreateAudioStream Method (SpeechAudioFormat)" Url="html/7d3fd9f9-aa8f-2c49-b8fb-c2756e901db0.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="b73a2c05-b6a8-4c13-9b24-e8c4b010a031" Title="Dispose Method " Url="html/2e7cd523-ca81-7fe9-4ed7-5cad14e33512.htm">
-          <HelpTOCNode Title="Dispose Method " Url="html/2c674ebc-3608-b72c-cfc8-2c13f4974389.htm" />
-          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/e9ef2ba5-00b6-118e-0884-66d141952bc6.htm" />
-        </HelpTOCNode>
-      </HelpTOCNode>
-      <HelpTOCNode Id="4542acd8-60a3-45f9-bd94-1eba088568fe" Title="Conversation Events" Url="html/151d4056-f63d-2b70-d2a0-f68e1025ded8.htm">
-        <HelpTOCNode Title="OnConversationError Event" Url="html/734dc9c3-6d1e-2c00-0996-4f54566963ae.htm" />
-        <HelpTOCNode Title="OnIntent Event" Url="html/363c04db-eb47-c2f3-0aa9-01298ec265ef.htm" />
-        <HelpTOCNode Title="OnMicrophoneStatus Event" Url="html/155ecf43-3ad9-ea85-a87f-bd249d40c7fa.htm" />
-        <HelpTOCNode Title="OnPartialResponseReceived Event" Url="html/20732519-c570-a169-572e-cbc998563dd0.htm" />
-        <HelpTOCNode Title="OnResponseReceived Event" Url="html/3791793c-6ae6-e4fe-2c55-e9d77c1c3927.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="dad22ced-5f06-4882-b44f-f8caf263bc88" Title="DataRecognitionClient Class" Url="html/7e6932b3-474b-c6db-af5e-72115adb3f14.htm">
-      <HelpTOCNode Id="2fb25cc6-18b9-4270-8f10-e60e17de194e" Title="DataRecognitionClient Methods" Url="html/666995cb-3517-1d4c-99b5-f69040a786ae.htm">
-        <HelpTOCNode Id="8309bdb4-39f2-4dcb-a779-abc9fa4fce61" Title="Dispose Method " Url="html/bd101a32-a598-4ead-3948-0179b1acbf29.htm">
-          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/63cdc290-de4b-58f6-6744-d14896c7c5f7.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Title="EndAudio Method " Url="html/ff56fdfe-47d4-3808-0d06-9181fc7585fe.htm" />
-        <HelpTOCNode Title="Finalize Method " Url="html/00275f14-4a9c-cb5f-1388-1f73f58f0dc7.htm" />
-        <HelpTOCNode Title="SendAudio Method " Url="html/c36d486e-00ec-4006-f978-a5e379fb591e.htm" />
-        <HelpTOCNode Title="SendAudioFormat Method " Url="html/2d590d63-0247-5e09-80b4-31ae41b22087.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Title="DataRecognitionClient Events" Url="html/5e1e5e85-7b56-04f7-3b7f-02f7e4ebe723.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="5c0e98c5-86e2-42f5-ab47-3b9c6ea494e5" Title="DataRecognitionClientWithIntent Class" Url="html/e29b75fb-a1fa-368d-ed56-b5a0586e83f8.htm">
-      <HelpTOCNode Title="DataRecognitionClientWithIntent Methods" Url="html/59591811-b109-3701-2ff3-a8c05f8aacde.htm" />
-      <HelpTOCNode Title="DataRecognitionClientWithIntent Events" Url="html/9de55f0e-78e7-43ce-f7cf-96d6dc6758d2.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="de4a5e38-95a7-48aa-8449-cdb2bfdb0caa" Title="IConversation Interface" Url="html/2d3cde72-6908-0d55-df13-ca1c798ab9bb.htm">
-      <HelpTOCNode Id="1517fe1f-e5ed-45cf-b472-aac94a8db936" Title="IConversation Methods" Url="html/9b059d5d-f9c4-a228-c517-01c1bce7b212.htm">
-        <HelpTOCNode Title="AudioStart Method " Url="html/b1d15aef-5393-67bc-4846-bfb95f15e06d.htm" />
-        <HelpTOCNode Title="AudioStop Method " Url="html/1d14dc7c-db4d-2076-8b95-b5aaeb7dff2a.htm" />
-        <HelpTOCNode Id="20abb8a3-9a64-487b-a331-67aefa79feae" Title="CreateAudioStream Method " Url="html/4b2e2baa-f019-781c-0451-25982bf6adb2.htm">
-          <HelpTOCNode Title="CreateAudioStream Method " Url="html/bbfe756a-74c8-727e-9efa-304f82169a3f.htm" />
-          <HelpTOCNode Title="CreateAudioStream Method (SpeechAudioFormat)" Url="html/5d457c1e-fb69-108d-b53d-d0480c5266c8.htm" />
+        <HelpTOCNode Id="027973f4-5698-4010-bbe4-ab8a423e3b0e" Title="Dispose Method " Url="html/dc630282-fbf2-e73a-0be5-258ff7983db9.htm">
+          <HelpTOCNode Title="Dispose Method " Url="html/9132b1aa-e2b3-89a5-75fa-bbd5e5a85e28.htm" />
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/1e70756c-f582-eb33-8df0-5e1b5b60c7a5.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
-      <HelpTOCNode Id="5aa2fb58-8e17-4a8e-b6b2-8d95ef928096" Title="IConversation Events" Url="html/07cd3970-345e-fb4e-df99-b640bd22bd8f.htm">
-        <HelpTOCNode Title="OnConversationError Event" Url="html/ebd043c7-688b-243b-b80c-7562294230af.htm" />
-        <HelpTOCNode Title="OnIntent Event" Url="html/d1f5053e-ea3f-8ddb-b08b-4246b50a7b5a.htm" />
-        <HelpTOCNode Title="OnMicrophoneStatus Event" Url="html/07ee7ca6-978a-5d7b-860c-57ad6126efdd.htm" />
-        <HelpTOCNode Title="OnPartialResponseReceived Event" Url="html/6069b1f0-d758-719b-d78b-9ece01d24c71.htm" />
-        <HelpTOCNode Title="OnResponseReceived Event" Url="html/edb9a53e-e14c-c1b4-9cf7-8524d3029cfc.htm" />
+      <HelpTOCNode Id="74a422f7-6a03-4cc7-89b1-f28d6253b060" Title="Conversation Events" Url="html/7f78445f-18a6-0e11-64a3-8cdd84a3f4f7.htm">
+        <HelpTOCNode Title="OnConversationError Event" Url="html/c09065e3-e86c-26e2-2a2e-9bb12c7a47ae.htm" />
+        <HelpTOCNode Title="OnIntent Event" Url="html/2ad5d500-4618-1618-0fc4-d0853ac44e00.htm" />
+        <HelpTOCNode Title="OnMicrophoneStatus Event" Url="html/27489401-d784-aea7-f7fa-e6d2d7efa0a8.htm" />
+        <HelpTOCNode Title="OnPartialResponseReceived Event" Url="html/048d413c-be48-668f-cc0d-743ff951f6cc.htm" />
+        <HelpTOCNode Title="OnResponseReceived Event" Url="html/9f43b9fa-eefd-7dd9-2c6b-4d2cfe66ae0a.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="3c07cc39-09b8-4bc1-af2a-be6bad76844d" Title="IDataRecognitionClient Interface" Url="html/6e8f4425-fb6b-a6a0-2ae1-affe7ff5061b.htm">
-      <HelpTOCNode Id="900c0163-599a-4d5f-89a3-fc7f221867cc" Title="IDataRecognitionClient Methods" Url="html/9e496bc8-8cd4-f184-c41d-97b331005215.htm">
-        <HelpTOCNode Title="EndAudio Method " Url="html/daa350ee-42eb-1352-b12d-bb4835357488.htm" />
-        <HelpTOCNode Title="SendAudio Method " Url="html/b58f39d2-2fff-5d99-e056-4299888a40b8.htm" />
-        <HelpTOCNode Title="SendAudioFormat Method " Url="html/ce1b8d53-bd7c-de4b-4c10-86bdf83c61ad.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Title="IDataRecognitionClient Events" Url="html/85997ca4-774f-a407-7b36-1a9c330bb4ff.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="53f0af42-4b2c-4fdd-9dba-3a57f2e2c672" Title="Intent Class" Url="html/6e9a1314-7318-0fef-51b8-63a311fd4a0f.htm">
-      <HelpTOCNode Id="608d83ba-2e3b-4238-b62b-a2a855d12419" Title="Intent Fields" Url="html/3298c7cb-94a6-6c2f-f5da-c93cd92ed44b.htm">
-        <HelpTOCNode Title="Body Field" Url="html/cd5dea31-e979-655f-d846-471e56f55cbc.htm" />
-        <HelpTOCNode Title="Headers Field" Url="html/e068c222-bdd0-916a-2a5d-1d1cbdf83255.htm" />
-        <HelpTOCNode Title="Url Field" Url="html/aba6135f-8312-2b70-c4a1-d08659554d79.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Title="Intent Methods" Url="html/a93cd005-4534-4ae5-2808-54b284c90053.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="abca8fb2-f293-42ff-ae26-fb781f1f3d2e" Title="MicrophoneEventArgs Class" Url="html/399a3e17-74fd-787d-0c35-acd5f92b0305.htm">
-      <HelpTOCNode Title="MicrophoneEventArgs Methods" Url="html/4cb6da3b-ba6d-b8c0-7c04-39ab9660d169.htm" />
-      <HelpTOCNode Id="fa069744-e1b3-425e-8b74-53145151683f" Title="MicrophoneEventArgs Properties" Url="html/f3a1d577-4b97-9709-3392-1ab18a603bfd.htm">
-        <HelpTOCNode Title="Recording Property " Url="html/c863d047-26cd-d2fb-c150-ab8db38e5d09.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="fac3cddc-ad7f-41dd-8f21-618fe0e0ee26" Title="MicrophoneRecognitionClient Class" Url="html/6c9803a8-afed-6a4a-2ff9-d911efe925df.htm">
-      <HelpTOCNode Id="237fd2e3-3640-40e4-bf9a-1ca927c26d58" Title="MicrophoneRecognitionClient Methods" Url="html/1a7fc7e1-79d7-27b7-f19f-c2873602a76d.htm">
-        <HelpTOCNode Title="EndMicAndRecognition Method " Url="html/cd652e55-46ec-aadb-7bb0-e4fb4856aed3.htm" />
-        <HelpTOCNode Title="StartMicAndRecognition Method " Url="html/9f0729e4-5624-c71a-149b-bcd1db6a3de0.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Title="MicrophoneRecognitionClient Events" Url="html/18343c6b-2745-6625-9f88-20812bd287b7.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="ffecd04c-7924-47fc-b6fc-9f263d369f1c" Title="MicrophoneRecognitionClientWithIntent Class" Url="html/51ee4d59-e2c6-2d61-9ece-d017816306c5.htm">
-      <HelpTOCNode Title="MicrophoneRecognitionClientWithIntent Methods" Url="html/6ef7656d-9a01-3c21-fd54-269650ecb2b6.htm" />
-      <HelpTOCNode Title="MicrophoneRecognitionClientWithIntent Events" Url="html/310b41e6-69e2-f884-fc86-e6387e7fb4f9.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="bacb23f5-220f-4f33-a3dc-d8455bea87da" Title="PartialSpeechResponseEventArgs Class" Url="html/2b08558a-f566-4abd-6f6e-dad250dbb20e.htm">
-      <HelpTOCNode Title="PartialSpeechResponseEventArgs Methods" Url="html/461d2d8e-cc61-2a1e-e0d5-7061845ac949.htm" />
-      <HelpTOCNode Id="23f27203-3188-4b72-a2e7-eb67d1686dcc" Title="PartialSpeechResponseEventArgs Properties" Url="html/e833f6ba-f313-68b4-eecd-9ec72d0b376f.htm">
-        <HelpTOCNode Title="PartialResult Property " Url="html/f03fede0-ef70-20cb-fad5-35f2e3e686ed.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="55c853af-3225-4b54-9184-586c2df55681" Title="Preferences Class" Url="html/94742536-7a8a-0df1-2eca-4840227cee6f.htm">
-      <HelpTOCNode Title="Preferences Constructor " Url="html/2bd097af-06d0-6a0e-e3f5-a0c4f53a7b75.htm" />
-      <HelpTOCNode Title="Preferences Methods" Url="html/20048dfc-86be-10d6-278f-ad827cd8ac56.htm" />
-      <HelpTOCNode Id="928ec51d-b282-433e-9d46-3b31ad690c45" Title="Preferences Properties" Url="html/cb987c85-b860-c186-49d1-e3ba9ef2abc4.htm">
-        <HelpTOCNode Title="Locale Property " Url="html/8b0b005c-9286-bb2e-a0a8-771cb76eab26.htm" />
-        <HelpTOCNode Title="MicrophoneTimeout Property " Url="html/aecec52d-2fb3-797d-f722-8bd1855f908e.htm" />
-        <HelpTOCNode Title="ServiceUri Property " Url="html/8e5abc1d-aaad-f7b4-867e-37e157ca8ffc.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="8101a163-7b4e-47cc-9123-e0a4c08ead22" Title="RecognitionResult Class" Url="html/be02c81f-62f0-3475-577e-b5b9aea01b6c.htm">
-      <HelpTOCNode Id="0f8f453a-1451-44f9-803c-13a8e98352dd" Title="RecognitionResult Fields" Url="html/957823c4-8165-e444-7bcd-d7fc38504dcc.htm">
-        <HelpTOCNode Title="RecognitionStatus Field" Url="html/82c99fde-59a1-08fa-e40b-923a7ab0f594.htm" />
-        <HelpTOCNode Title="Results Field" Url="html/ce014698-4aff-cd32-7970-a536bf4bbbbd.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Title="RecognitionResult Methods" Url="html/6f966e71-6987-6320-4790-11f3d496f233.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Title="RecognitionStatus Enumeration" Url="html/acbcd432-2e63-6a2e-b594-206cc9b2a85a.htm" />
-    <HelpTOCNode Id="830bb7e0-732c-4252-9787-e883a523993f" Title="RecognizedPhrase Class" Url="html/8088186a-6d76-5686-9cfa-a2b459e18420.htm">
-      <HelpTOCNode Id="162a84eb-e08f-4a6b-8b48-d5a069229487" Title="RecognizedPhrase Fields" Url="html/46da2ae6-a886-2545-12b9-8fa3b8602904.htm">
-        <HelpTOCNode Title="Confidence Field" Url="html/7c61fbef-3d50-187d-a325-3b7e48275c0d.htm" />
-        <HelpTOCNode Title="DisplayText Field" Url="html/190542d4-ee81-f40c-3a7f-073263dc47c2.htm" />
-        <HelpTOCNode Title="InverseTextNormalizationResult Field" Url="html/9c7001fb-4560-f5d7-7e79-6731a77afd82.htm" />
-        <HelpTOCNode Title="LexicalForm Field" Url="html/53561b27-03d6-45e1-15b8-aa4d3dddf108.htm" />
-        <HelpTOCNode Title="MaskedInverseTextNormalizationResult Field" Url="html/42e021dd-b73d-9b1e-0eb0-03d3e00a8d0b.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Title="RecognizedPhrase Methods" Url="html/fbc34893-c347-4a59-f501-deaf3980ea65.htm" />
-    </HelpTOCNode>
-    <HelpTOCNode Id="da70718f-fb9e-4c1e-b9c5-904372e463c0" Title="SpeechAudioFormat Class" Url="html/b530eb82-a498-926f-e69a-09d93c6ee29c.htm">
-      <HelpTOCNode Title="SpeechAudioFormat Constructor " Url="html/99f16395-7b40-b8c8-180b-8acf62a39912.htm" />
-      <HelpTOCNode Id="be5c3bcc-943b-4630-9fda-b6dce469ae9b" Title="SpeechAudioFormat Fields" Url="html/802ea150-399d-c5d7-2fa7-e6fe275adeef.htm">
-        <HelpTOCNode Title="AverageBytesPerSecond Field" Url="html/0e5ca434-20f4-48e1-dea5-780637f3ad0e.htm" />
-        <HelpTOCNode Title="BitsPerSample Field" Url="html/9c628ecd-def5-982e-a9de-50b68de03c1d.htm" />
-        <HelpTOCNode Title="BlockAlign Field" Url="html/44af38b8-f8fd-c628-e141-c2a2a3374958.htm" />
-        <HelpTOCNode Title="ChannelCount Field" Url="html/6b8479bc-b437-30f4-4ceb-3f51b8aed1ad.htm" />
-        <HelpTOCNode Title="EncodingFormat Field" Url="html/cc32368a-3da5-cffb-fbee-1322abbd19f8.htm" />
-        <HelpTOCNode Title="FormatSpecificData Field" Url="html/43376579-c3a0-5348-e351-445fdd42d38f.htm" />
-        <HelpTOCNode Title="SamplesPerSecond Field" Url="html/0286d6ef-cfb6-b731-cd8e-ca4d16594cc8.htm" />
-      </HelpTOCNode>
-      <HelpTOCNode Id="a8c964ba-4f25-43d4-8dac-c68bb7e0341a" Title="SpeechAudioFormat Methods" Url="html/ccc52618-95df-f4d9-a1c4-541136f2b37e.htm">
-        <HelpTOCNode Title="create16BitPCMFormat Method " Url="html/db4fb56c-ad74-bf59-82d3-831f0931b6de.htm" />
-        <HelpTOCNode Title="createSiren7Format Method " Url="html/8317093c-9510-667f-9970-80efbbb13686.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Title="SpeechClientStatus Enumeration" Url="html/af0ce99c-2c3b-361d-698f-dbde3e8f7045.htm" />
-    <HelpTOCNode Id="4657ba3d-c4db-49d5-a9c2-50d03bfaf985" Title="SpeechErrorEventArgs Class" Url="html/34c5a3d1-4cca-fd1b-2f7c-2b3209406b15.htm">
-      <HelpTOCNode Title="SpeechErrorEventArgs Methods" Url="html/1f2b8eec-8cf2-0b02-6f84-27da337c2e12.htm" />
-      <HelpTOCNode Id="7a68bde3-680e-414b-b925-f0f4fc2640fe" Title="SpeechErrorEventArgs Properties" Url="html/f3931fca-d7a8-08f4-5cc3-5af430807f58.htm">
-        <HelpTOCNode Title="SpeechErrorCode Property " Url="html/538c0c93-615e-4b58-3242-f4525e44db28.htm" />
-        <HelpTOCNode Title="SpeechErrorText Property " Url="html/cbccb94b-33ca-c8f8-67ae-c18de6db3eda.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Id="97b8c270-8883-45c2-a329-9c70717e5c06" Title="SpeechIntentEventArgs Class" Url="html/80f8b7cb-5a9f-1f9a-88b5-5b54c6b3df83.htm">
-      <HelpTOCNode Title="SpeechIntentEventArgs Methods" Url="html/988fc62a-62b8-697b-1925-4c927411de4f.htm" />
-      <HelpTOCNode Id="68fca5fc-268e-4d95-bbdd-09a79890723f" Title="SpeechIntentEventArgs Properties" Url="html/313fe59b-aac3-bbc3-a007-8746169274a1.htm">
-        <HelpTOCNode Title="Intent Property " Url="html/6f0059a8-2dc7-ba65-531e-f537c9dd4701.htm" />
-        <HelpTOCNode Title="Payload Property " Url="html/2a482e35-a628-2702-5d5c-e8b960b9b3ee.htm" />
-      </HelpTOCNode>
-    </HelpTOCNode>
-    <HelpTOCNode Title="SpeechRecognitionMode Enumeration" Url="html/3d2bce6a-29b2-73d8-5e88-d90c5d4d2357.htm" />
-    <HelpTOCNode Id="f24764d4-1b5c-4d6d-8246-60e4bbb719d6" Title="SpeechRecognitionServiceFactory Class" Url="html/41994490-3ab1-b1c0-aab7-861336dfa4b3.htm">
-      <HelpTOCNode Id="4acc5582-e3b2-4c29-8904-a1896420806d" Title="SpeechRecognitionServiceFactory Methods" Url="html/20e04bd9-f2f6-34f8-aa14-d9ccd4c47c29.htm">
-        <HelpTOCNode Id="d01028b0-32e5-45be-bb50-07a47617c6be" Title="CreateDataClient Method " Url="html/b3b15ca9-0650-4d27-1fb7-fb76b3de2c01.htm">
-          <HelpTOCNode Title="CreateDataClient Method (SpeechRecognitionMode, String, String)" Url="html/a8351b4e-e614-e3b0-776c-de8570439bda.htm" />
-          <HelpTOCNode Title="CreateDataClient Method (SpeechRecognitionMode, String, String, String)" Url="html/e9975b82-e195-4500-f64a-8e78bdc95996.htm" />
-          <HelpTOCNode Title="CreateDataClient Method (SpeechRecognitionMode, String, String, String, String)" Url="html/725c8862-1976-23fe-3c8c-989974b44652.htm" />
+    <HelpTOCNode Id="7ecbfb8d-de93-4a8f-9b7c-3ca29d225488" Title="DataRecognitionClient Class" Url="html/fbf9573e-a20f-1860-3f05-48fc066bab43.htm">
+      <HelpTOCNode Id="787c63e0-e95b-40f5-b598-68a390cbaf4e" Title="DataRecognitionClient Methods" Url="html/5b47a16b-c7f6-e78f-01e2-1662f0f69d13.htm">
+        <HelpTOCNode Id="929d59d6-4def-4db2-b0ee-f634a8fd9439" Title="Dispose Method " Url="html/5915c738-26b6-b92d-27e3-4b0452b53c7e.htm">
+          <HelpTOCNode Title="Dispose Method (Boolean)" Url="html/6e4093f2-97a4-5447-d963-418060c6d02d.htm" />
         </HelpTOCNode>
-        <HelpTOCNode Id="0a9d0502-cc0c-4ede-8b26-d06a1445b319" Title="CreateDataClientWithIntent Method " Url="html/29d44af4-309f-fd2c-f1dc-80f9d6e63d53.htm">
-          <HelpTOCNode Title="CreateDataClientWithIntent Method (String, String, String, String)" Url="html/fc699795-acd8-d613-a913-d112de8865b0.htm" />
-          <HelpTOCNode Title="CreateDataClientWithIntent Method (String, String, String, String, String)" Url="html/065041f0-7281-f1e5-7f03-6246c2aa42b4.htm" />
-          <HelpTOCNode Title="CreateDataClientWithIntent Method (String, String, String, String, String, String)" Url="html/940a088e-f92e-f57b-693e-337960e305b7.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="f0bf9345-ec32-4a12-b8f9-62f6884b34b7" Title="CreateMicrophoneClient Method " Url="html/d39eefe2-9c95-a602-7a58-168b90b95741.htm">
-          <HelpTOCNode Title="CreateMicrophoneClient Method (SpeechRecognitionMode, String, String)" Url="html/5b3f0048-e2be-e901-8282-43c2aecdc4b4.htm" />
-          <HelpTOCNode Title="CreateMicrophoneClient Method (SpeechRecognitionMode, String, String, String)" Url="html/41eb3157-a2c2-c6ba-0f47-b6562d849b32.htm" />
-          <HelpTOCNode Title="CreateMicrophoneClient Method (SpeechRecognitionMode, String, String, String, String)" Url="html/c48abca0-22a4-694c-8d6d-89400aa5c847.htm" />
-        </HelpTOCNode>
-        <HelpTOCNode Id="3218ff25-f2aa-4cf1-9b7e-ed7f688a65ed" Title="CreateMicrophoneClientWithIntent Method " Url="html/454ddf64-8db0-2a9f-ccbc-f6fd21673f38.htm">
-          <HelpTOCNode Title="CreateMicrophoneClientWithIntent Method (String, String, String, String)" Url="html/7df82484-41dd-0986-556c-b2229f4ca307.htm" />
-          <HelpTOCNode Title="CreateMicrophoneClientWithIntent Method (String, String, String, String, String)" Url="html/13c10390-0e45-ef84-0e1f-510dd28eb712.htm" />
-          <HelpTOCNode Title="CreateMicrophoneClientWithIntent Method (String, String, String, String, String, String)" Url="html/a90f9771-9583-9aa3-9b87-88f082eb49e9.htm" />
+        <HelpTOCNode Title="EndAudio Method " Url="html/17e84d0e-6289-c9fe-2a3c-f7d37c7d2c67.htm" />
+        <HelpTOCNode Title="Finalize Method " Url="html/61458077-030d-889f-7cf4-0f15e4a7a2dc.htm" />
+        <HelpTOCNode Title="SendAudio Method " Url="html/a192d363-9903-c059-c76c-cb1f4254e6b6.htm" />
+        <HelpTOCNode Title="SendAudioFormat Method " Url="html/5897c423-ced7-3683-f6b5-3eb586b7cb49.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="DataRecognitionClient Events" Url="html/3a539c44-759b-f1dd-3c8e-809661c074f0.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3508c3bb-6c06-44eb-bd8e-879188c11160" Title="DataRecognitionClientWithIntent Class" Url="html/4807097d-0560-2294-d8cf-4a1a89442a27.htm">
+      <HelpTOCNode Title="DataRecognitionClientWithIntent Methods" Url="html/51a24fe0-c8a0-3c5d-033c-08946288115e.htm" />
+      <HelpTOCNode Title="DataRecognitionClientWithIntent Events" Url="html/8532b884-ce23-c90c-d60d-a8caf63daa74.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="cfa9fc2d-c91b-43eb-a6e4-29ec5745144e" Title="IConversation Interface" Url="html/9a365eca-5e07-b8bc-5890-0dc62551ce0d.htm">
+      <HelpTOCNode Id="b26d8036-4ca8-4c97-a05d-8fe457d27f76" Title="IConversation Methods" Url="html/3783179d-924d-82ae-b003-09fc7c734eb5.htm">
+        <HelpTOCNode Title="AudioStart Method " Url="html/d8f752f2-ef77-6981-f58a-8a12f36660d6.htm" />
+        <HelpTOCNode Title="AudioStop Method " Url="html/2474e71a-c486-bdbd-5d7b-c23475b112e7.htm" />
+        <HelpTOCNode Id="6bd07b21-887e-4c10-bb76-de842fedbb49" Title="CreateAudioStream Method " Url="html/ee8aa57d-6894-b104-a985-12c2701f822b.htm">
+          <HelpTOCNode Title="CreateAudioStream Method " Url="html/74c56639-a957-5e3e-42b5-56c9ab6753ae.htm" />
+          <HelpTOCNode Title="CreateAudioStream Method (SpeechAudioFormat)" Url="html/06980881-623a-6386-1de0-bde43dd1dcf6.htm" />
         </HelpTOCNode>
       </HelpTOCNode>
+      <HelpTOCNode Id="f3b60431-ba11-4740-89ef-a7ede4ba643e" Title="IConversation Events" Url="html/28e3e1dc-9d94-0503-6c4a-5adee9571f9c.htm">
+        <HelpTOCNode Title="OnConversationError Event" Url="html/6ec157bc-4acb-ec63-8771-c6ce4ef5d9fc.htm" />
+        <HelpTOCNode Title="OnIntent Event" Url="html/5574320d-b6b2-d972-6048-f7c4a25452a8.htm" />
+        <HelpTOCNode Title="OnMicrophoneStatus Event" Url="html/402749a9-15a5-3ab1-6264-60def15e02ea.htm" />
+        <HelpTOCNode Title="OnPartialResponseReceived Event" Url="html/2fd3f0cc-2f38-20b7-9cc4-7b7146e1260a.htm" />
+        <HelpTOCNode Title="OnResponseReceived Event" Url="html/51d93c6b-eb09-1ec3-95a6-c4c753518582.htm" />
+      </HelpTOCNode>
     </HelpTOCNode>
-    <HelpTOCNode Id="fa1e81e9-c974-4c8c-837f-2a42970c2b7c" Title="SpeechResponseEventArgs Class" Url="html/e4ef9a8d-e61d-f753-1ccc-5875cedee272.htm">
-      <HelpTOCNode Title="SpeechResponseEventArgs Methods" Url="html/2f6791fd-d311-c634-c049-270c0cdc24f2.htm" />
-      <HelpTOCNode Id="cde07efb-5b88-4f83-8d7f-1cb20345911f" Title="SpeechResponseEventArgs Properties" Url="html/675741e6-f007-fac3-fc69-14a717491641.htm">
-        <HelpTOCNode Title="PhraseResponse Property " Url="html/cac804ba-97cb-9871-cd93-3eb7866931ed.htm" />
+    <HelpTOCNode Id="c805cd42-399d-434c-ad60-837fa3478e95" Title="IDataRecognitionClient Interface" Url="html/6f226d57-ad35-17a5-3885-8efcd4985b20.htm">
+      <HelpTOCNode Id="70ae7fae-1203-4f73-b96e-1ba320c8f886" Title="IDataRecognitionClient Methods" Url="html/a4cefbc3-8740-4489-7754-1cbce4f16b52.htm">
+        <HelpTOCNode Title="EndAudio Method " Url="html/3d5cd755-52a3-412b-c534-34a54c7c26e7.htm" />
+        <HelpTOCNode Title="SendAudio Method " Url="html/442663f5-d2d1-c262-bb59-814e91620f2d.htm" />
+        <HelpTOCNode Title="SendAudioFormat Method " Url="html/2447263e-2de1-fc57-91af-a1d08e31d1a5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IDataRecognitionClient Events" Url="html/ed001112-3657-c664-3e01-0784f1bb3f3e.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b83c9ce6-b033-4d1f-898e-fa7fcf0e1c3e" Title="Intent Class" Url="html/664435e3-53ed-c49f-0e66-284ad9544a08.htm">
+      <HelpTOCNode Id="adee1a4e-67fc-4c12-b1e6-abdccbbcdddd" Title="Intent Fields" Url="html/c5770807-c8cd-1283-057a-59832c1f9364.htm">
+        <HelpTOCNode Title="Body Field" Url="html/9df3f16d-480b-a64f-4007-fd096fe9df79.htm" />
+        <HelpTOCNode Title="Headers Field" Url="html/b19b1492-97c2-44aa-ff97-b37a28233d67.htm" />
+        <HelpTOCNode Title="Url Field" Url="html/cec4d2f0-ff5c-db75-a305-1442d259726f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Intent Methods" Url="html/a61e4f46-129b-b86f-ebbd-482e41516e1d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="80e9c374-b8b4-40fb-a34d-74685c881d5e" Title="MicrophoneEventArgs Class" Url="html/0eebf515-050b-0193-1a4c-3135b1d0641d.htm">
+      <HelpTOCNode Title="MicrophoneEventArgs Methods" Url="html/35434103-aab2-867c-78ad-d8bf7366fb40.htm" />
+      <HelpTOCNode Id="86c5160f-20f7-4dd3-9f16-0c51b36f8e1c" Title="MicrophoneEventArgs Properties" Url="html/0da2f8e3-6cc4-6630-cf29-80e23e6b73e3.htm">
+        <HelpTOCNode Title="Recording Property " Url="html/9d4f9c7e-be13-e541-bef4-055cb1a45ef9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="348ccb2f-d142-42fd-9d4f-cd6e59be811a" Title="MicrophoneRecognitionClient Class" Url="html/e68e9fd2-eae7-a385-e0f9-f5789177fbfa.htm">
+      <HelpTOCNode Id="bb388150-9255-4949-a7fd-d72dca0f3e90" Title="MicrophoneRecognitionClient Methods" Url="html/ae02fb81-85e5-bed6-c55d-8e75cb1b888b.htm">
+        <HelpTOCNode Title="EndMicAndRecognition Method " Url="html/c6651b4e-82dc-4bab-057b-cd72e8c08b81.htm" />
+        <HelpTOCNode Title="StartMicAndRecognition Method " Url="html/b606ecbb-b965-01e0-1a74-0df3b342d9fc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="MicrophoneRecognitionClient Events" Url="html/cd769f4e-7fd7-94c7-518a-0b99ae9e90fb.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="6a54d384-92d3-4b1d-bd5f-e920dd1b363c" Title="MicrophoneRecognitionClientWithIntent Class" Url="html/25592aa1-03f6-eeab-c634-64b326e4f636.htm">
+      <HelpTOCNode Title="MicrophoneRecognitionClientWithIntent Methods" Url="html/bd156605-012f-6b4b-7e0b-c9ddb89dbbae.htm" />
+      <HelpTOCNode Title="MicrophoneRecognitionClientWithIntent Events" Url="html/27e70863-d6fe-1521-2c67-e8e3475fbe00.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="3997b9d2-e18f-4deb-809c-9da5d6850bb4" Title="PartialSpeechResponseEventArgs Class" Url="html/34b4a91b-ebe3-0376-be8d-f77dd3902fb8.htm">
+      <HelpTOCNode Title="PartialSpeechResponseEventArgs Methods" Url="html/8be3eb2f-062d-557a-dce6-de9bd28db496.htm" />
+      <HelpTOCNode Id="2ff31493-11b6-4b5f-b4a2-565313f40545" Title="PartialSpeechResponseEventArgs Properties" Url="html/75f36d98-fc2a-4cf1-10bf-dce64bfe3b36.htm">
+        <HelpTOCNode Title="PartialResult Property " Url="html/30f3f4df-3a8d-fd3d-2b80-733a9983aeaf.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c8e31f34-24db-4ecf-a24c-1fc14c563712" Title="Preferences Class" Url="html/a11b5a3e-f465-8095-5f65-ef258c3dca75.htm">
+      <HelpTOCNode Title="Preferences Constructor " Url="html/9327d54d-b567-5245-5181-1d56d3a702c9.htm" />
+      <HelpTOCNode Title="Preferences Methods" Url="html/5b9b1bcd-54a6-824d-b9c7-3119ba648aa4.htm" />
+      <HelpTOCNode Id="5e7ad562-e659-455a-ad5c-446c4185b11c" Title="Preferences Properties" Url="html/d62e8903-6db1-fddc-15e7-437704d604e0.htm">
+        <HelpTOCNode Title="Locale Property " Url="html/d1980f82-692a-9105-028f-789a23f6304c.htm" />
+        <HelpTOCNode Title="MicrophoneTimeout Property " Url="html/d8038a74-15f9-21e4-71ae-e25b8f53e658.htm" />
+        <HelpTOCNode Title="ServiceUri Property " Url="html/de61ea18-66ab-4d18-7cae-8230784bd5c9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="58738507-a199-4c93-ac89-e7fff1b5cbf5" Title="RecognitionResult Class" Url="html/5bc0c939-0703-a37b-6f5d-ce7b3d654e44.htm">
+      <HelpTOCNode Id="ef6e5615-867b-46c4-b979-c3a44c3cc794" Title="RecognitionResult Fields" Url="html/315a4464-b624-8623-8dda-a13ce8b5eae4.htm">
+        <HelpTOCNode Title="RecognitionStatus Field" Url="html/cfc79677-d4b7-9739-5f11-f3d915a12be9.htm" />
+        <HelpTOCNode Title="Results Field" Url="html/41c60371-46f1-f2fd-ad71-c1e7978bb946.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RecognitionResult Methods" Url="html/f44c53c5-ac80-6198-d3f6-1e08292c8ba9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Title="RecognitionStatus Enumeration" Url="html/b8902459-892e-ded8-2f50-7df1464ccee4.htm" />
+    <HelpTOCNode Id="84ce61db-3e61-4bcf-bcd0-030db9790213" Title="RecognizedPhrase Class" Url="html/88922209-d3c8-3f24-07d4-d497708e354b.htm">
+      <HelpTOCNode Id="ca797081-b55a-4ef6-9cb2-dd2c5de38feb" Title="RecognizedPhrase Fields" Url="html/b1645e25-cb50-212a-4001-daaf329af3f8.htm">
+        <HelpTOCNode Title="Confidence Field" Url="html/c2c4975e-a7bd-4b2f-bcbd-04551f7ce4ab.htm" />
+        <HelpTOCNode Title="DisplayText Field" Url="html/739dc978-21af-a6ec-eacf-684dc6b3bb31.htm" />
+        <HelpTOCNode Title="InverseTextNormalizationResult Field" Url="html/689b6e25-2ea2-245f-3aaa-7d7830d27ff4.htm" />
+        <HelpTOCNode Title="LexicalForm Field" Url="html/57741635-a0b6-5a86-9f34-ae881a738f72.htm" />
+        <HelpTOCNode Title="MaskedInverseTextNormalizationResult Field" Url="html/504dc648-e744-313b-b868-9483cb38e6c8.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="RecognizedPhrase Methods" Url="html/d68ac202-fdae-8ca8-0296-034ea1a560c9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="a65b5336-7b01-4fac-83d2-237c7c0f40a5" Title="SpeechAudioFormat Class" Url="html/eb0bab42-7a92-384c-fef6-cc0b3c5f07f6.htm">
+      <HelpTOCNode Title="SpeechAudioFormat Constructor " Url="html/7bb3483c-b857-01c2-afe6-fb40c80d864f.htm" />
+      <HelpTOCNode Id="0d68c63b-ff8b-4d42-83d3-7b51ec2c2a29" Title="SpeechAudioFormat Fields" Url="html/66ca99d0-0038-1c46-d1bf-3578eae45ebc.htm">
+        <HelpTOCNode Title="AverageBytesPerSecond Field" Url="html/59947aaa-acc3-27c7-4f11-3d19118e3e1e.htm" />
+        <HelpTOCNode Title="BitsPerSample Field" Url="html/7e9e0979-fcb2-d9d5-6f19-8bb7a04f253e.htm" />
+        <HelpTOCNode Title="BlockAlign Field" Url="html/f886b224-b160-ffdb-bdce-172233b2c2ff.htm" />
+        <HelpTOCNode Title="ChannelCount Field" Url="html/f67bda14-618d-6873-0971-a8f77811cc14.htm" />
+        <HelpTOCNode Title="EncodingFormat Field" Url="html/b73e594f-3585-e596-0b45-ea2f128013e7.htm" />
+        <HelpTOCNode Title="FormatSpecificData Field" Url="html/74df4cfb-e5cc-4f38-6f6d-2d385575f18c.htm" />
+        <HelpTOCNode Title="SamplesPerSecond Field" Url="html/b12d7427-36de-04b7-3822-1c79996ddd36.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="335748e2-027a-4941-9ea6-a6cf71232214" Title="SpeechAudioFormat Methods" Url="html/9b3cad25-f987-5728-5ad5-e571e5a13ff7.htm">
+        <HelpTOCNode Title="create16BitPCMFormat Method " Url="html/56e58694-5d0c-9829-796c-83e983f04f2e.htm" />
+        <HelpTOCNode Title="createSiren7Format Method " Url="html/ffc76fb8-a501-5b23-7750-2dc3219bd0bd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="SpeechClientStatus Enumeration" Url="html/27067246-6845-b933-1605-29ff3224e829.htm" />
+    <HelpTOCNode Id="29d790c2-a47c-4f63-a9aa-4d454617ab1a" Title="SpeechErrorEventArgs Class" Url="html/08495368-0387-ef75-d8ce-9a9faf8deae0.htm">
+      <HelpTOCNode Title="SpeechErrorEventArgs Methods" Url="html/a987db7d-ae44-bd4d-a8c3-dc0561894445.htm" />
+      <HelpTOCNode Id="7119c498-a8ba-4c28-a1b8-80c53e22f53d" Title="SpeechErrorEventArgs Properties" Url="html/31e1d15d-091b-fe37-ddb6-f930504e9703.htm">
+        <HelpTOCNode Title="SpeechErrorCode Property " Url="html/81c7f964-6b1e-a276-287b-84c2d04e76a4.htm" />
+        <HelpTOCNode Title="SpeechErrorText Property " Url="html/68b2fcde-bfa6-b68e-e66c-9971a9946aa5.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="0c97a9ca-0f1e-49ad-932c-9a9aed97bf79" Title="SpeechIntentEventArgs Class" Url="html/4299d604-e33e-f932-62fd-8587f409921e.htm">
+      <HelpTOCNode Title="SpeechIntentEventArgs Methods" Url="html/988caef1-fe45-d773-36b2-638aa69bdc64.htm" />
+      <HelpTOCNode Id="a0cc151a-3d95-4013-badf-a69aa4289395" Title="SpeechIntentEventArgs Properties" Url="html/68bf45dd-61d4-dc04-0b8c-2bf48ed54562.htm">
+        <HelpTOCNode Title="Intent Property " Url="html/643487ff-b934-b94c-c09a-00b7060ca8fe.htm" />
+        <HelpTOCNode Title="Payload Property " Url="html/a58dfc6a-38a6-c9e1-97d1-daf0b0377ade.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="SpeechRecognitionMode Enumeration" Url="html/f8d200ce-9f78-f797-8ba2-109ecf5e9106.htm" />
+    <HelpTOCNode Id="989c1180-4c1e-4f64-9299-4fe9a48b7b1b" Title="SpeechRecognitionServiceFactory Class" Url="html/a59897aa-cec2-0aaa-0f67-e198195bba49.htm">
+      <HelpTOCNode Id="7c4de18f-785d-430a-9b80-5378db31cca6" Title="SpeechRecognitionServiceFactory Methods" Url="html/7ea8ddaf-73d6-4ba2-aad7-a42c49961ffd.htm">
+        <HelpTOCNode Id="03cc5dc0-b6d7-426d-ba2a-f3806d14ef85" Title="CreateDataClient Method " Url="html/815dc65a-276b-272d-46af-d191c6a10c0d.htm">
+          <HelpTOCNode Title="CreateDataClient Method (SpeechRecognitionMode, String, String)" Url="html/3777698b-8e1a-cc1b-081d-f23a9545d857.htm" />
+          <HelpTOCNode Title="CreateDataClient Method (SpeechRecognitionMode, String, String, String)" Url="html/ab24b39d-7628-986c-2b07-670a226b6384.htm" />
+          <HelpTOCNode Title="CreateDataClient Method (SpeechRecognitionMode, String, String, String, String)" Url="html/29b52ab3-823b-fb94-b1d9-b2a9c29a167f.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c7b57bd3-ff56-48a1-bbf0-f4f78c2f1963" Title="CreateDataClientWithIntent Method " Url="html/5da87468-40a5-f534-1ef2-ed7bd8335cec.htm">
+          <HelpTOCNode Title="CreateDataClientWithIntent Method (String, String, String, String)" Url="html/a11a7d10-5783-9ad5-1dbe-326e7365d9ce.htm" />
+          <HelpTOCNode Title="CreateDataClientWithIntent Method (String, String, String, String, String)" Url="html/d10a88cb-8f81-e33b-6e9d-4f60d1697d4b.htm" />
+          <HelpTOCNode Title="CreateDataClientWithIntent Method (String, String, String, String, String, String)" Url="html/f0a90881-0b28-7783-f414-2930ddceee00.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="33091745-3dd6-4059-b427-6928cfd73412" Title="CreateMicrophoneClient Method " Url="html/879bfb10-d136-3775-afaa-809d3808fc02.htm">
+          <HelpTOCNode Title="CreateMicrophoneClient Method (SpeechRecognitionMode, String, String)" Url="html/c872a11a-c84e-bf33-c19f-16073b018207.htm" />
+          <HelpTOCNode Title="CreateMicrophoneClient Method (SpeechRecognitionMode, String, String, String)" Url="html/927f588f-0607-5a1d-fdb4-87f020577528.htm" />
+          <HelpTOCNode Title="CreateMicrophoneClient Method (SpeechRecognitionMode, String, String, String, String)" Url="html/195f9ce6-1d90-29d9-49c3-f1571e5c4af1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2a89e916-c1ae-4ddb-99cd-aaf6c9c06ba6" Title="CreateMicrophoneClientWithIntent Method " Url="html/36aa8cec-6590-c206-b590-8fdadd43931c.htm">
+          <HelpTOCNode Title="CreateMicrophoneClientWithIntent Method (String, String, String, String)" Url="html/0820361e-9b31-e0cb-ea9c-850516ff03e7.htm" />
+          <HelpTOCNode Title="CreateMicrophoneClientWithIntent Method (String, String, String, String, String)" Url="html/e8f28586-3563-df97-393e-607bcb6e2e33.htm" />
+          <HelpTOCNode Title="CreateMicrophoneClientWithIntent Method (String, String, String, String, String, String)" Url="html/c5e659e8-6081-a931-5d54-9b601d4043a2.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="236dcfcd-8dc7-4f2b-8825-90e4ca4b7737" Title="SpeechResponseEventArgs Class" Url="html/2e9a3252-7979-e339-87ca-cd48d5446014.htm">
+      <HelpTOCNode Title="SpeechResponseEventArgs Methods" Url="html/ff86fe6d-55cb-d899-a53d-cf66fcd73bb1.htm" />
+      <HelpTOCNode Id="55af890c-73d0-4c22-8d99-c7c6cb0f2709" Title="SpeechResponseEventArgs Properties" Url="html/da40433a-df9d-6e33-3514-855bed5b2e45.htm">
+        <HelpTOCNode Title="PhraseResponse Property " Url="html/617a5563-0ec5-6596-6005-66cedee8ba1a.htm" />
       </HelpTOCNode>
     </HelpTOCNode>
   </HelpTOCNode>
