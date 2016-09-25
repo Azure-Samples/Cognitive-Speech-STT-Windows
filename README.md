@@ -8,7 +8,7 @@ This repo contains the Windows client library & sample for using Speech-to-Text 
 ## The Client Library
 The Speech-to-Text client library is a thin C\# client wrapper for Bing Speech API. 
 
-The easiest way to use this client library is to get microsoft.projectoxford.vision package from [nuget](<http://nuget.org>). There are two nuget packages. One is for x86 build, and one is for x64 build.
+The easiest way to use this client library is to get microsoft.projectoxford.speechrecognition package from [nuget](<http://nuget.org>). There are two nuget packages. One is for x86 build, and one is for x64 build.
  * For x86 package, please go to [Speech Recognition API x86 Package in nuget](https://www.nuget.org/packages/Microsoft.ProjectOxford.SpeechRecognition-x86/) for more details.
  * For x64 package, please go to [Speech Recognition API x64 Package in nuget](https://www.nuget.org/packages/Microsoft.ProjectOxford.SpeechRecognition-x64/) for more details.
 
