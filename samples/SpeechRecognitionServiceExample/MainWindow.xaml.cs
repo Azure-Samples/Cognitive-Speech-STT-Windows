@@ -270,6 +270,20 @@ namespace Microsoft.CognitiveServices.SpeechRecognition
         }
 
         /// <summary>
+        /// Gets the Cognitive Service Authentication Uri.
+        /// </summary>
+        /// <value>
+        /// The Cognitive Service Authentication Uri.  Empty if the global default is to be used.
+        /// </value>
+        private string AuthenticationUri
+        {
+            get
+            {
+                return ConfigurationManager.AppSettings["AuthenticationUri"];
+            }
+        }
+
+        /// <summary>
         /// Raises the System.Windows.Window.Closed event.
         /// </summary>
         /// <param name="e">An System.EventArgs that contains the event data.</param>
@@ -401,6 +415,7 @@ namespace Microsoft.CognitiveServices.SpeechRecognition
                 this.Mode,
                 this.DefaultLocale,
                 this.SubscriptionKey);
+            this.micClient.AuthenticationUri = this.AuthenticationUri;
 
             // Event handlers for speech recognition results
             this.micClient.OnMicrophoneStatus += this.OnMicrophoneStatus;
@@ -430,6 +445,7 @@ namespace Microsoft.CognitiveServices.SpeechRecognition
                 this.SubscriptionKey,
                 this.LuisAppId,
                 this.LuisSubscriptionID);
+            this.micClient.AuthenticationUri = this.AuthenticationUri;
             this.micClient.OnIntent += this.OnIntentHandler;
 
             // Event handlers for speech recognition results
@@ -462,6 +478,7 @@ namespace Microsoft.CognitiveServices.SpeechRecognition
                 this.Mode,
                 this.DefaultLocale,
                 this.SubscriptionKey);
+            this.dataClient.AuthenticationUri = this.AuthenticationUri;
 
             // Event handlers for speech recognition results
             if (this.Mode == SpeechRecognitionMode.ShortPhrase)
@@ -491,6 +508,7 @@ namespace Microsoft.CognitiveServices.SpeechRecognition
                 this.SubscriptionKey,
                 this.LuisAppId,
                 this.LuisSubscriptionID);
+            this.dataClient.AuthenticationUri = this.AuthenticationUri;
 
             // Event handlers for speech recognition results
             this.dataClient.OnResponseReceived += this.OnDataShortPhraseResponseReceivedHandler;
