@@ -36,10 +36,6 @@
                     <RadioButton x:Name="_micDictationRadioButton" IsChecked="{Binding ElementName=_mainWindow, Path=IsMicrophoneClientDictation}" Margin="10, 10, 0, 0" Click="RadioButton_Click">Use Microphone with LongDictation mode</RadioButton>
                     <RadioButton x:Name="_micIntentRadioButton" IsChecked="{Binding ElementName=_mainWindow, Path=IsMicrophoneClientWithIntent}" Margin="10, 10, 0, 0" Click="RadioButton_Click">Use Microphone and intent detection</RadioButton>
                     <Label Margin="30,0,0,0">(* LUIS registration is needed.)</Label>
-                    <RadioButton x:Name="_dataShortRadioButton" IsChecked="{Binding ElementName=_mainWindow, Path=IsDataClientShortPhrase}" Margin="10, 10, 0, 0" Click="RadioButton_Click">Use wav file for ShortPhrase mode</RadioButton>
-                    <RadioButton x:Name="_dataLongRadioButton" IsChecked="{Binding ElementName=_mainWindow, Path=IsDataClientDictation}" Margin="10, 10, 0, 0" Click="RadioButton_Click">Use wav file for LongDictation mode</RadioButton>
-                    <RadioButton x:Name="_dataShortIntentRadioButton" IsChecked="{Binding ElementName=_mainWindow, Path=IsDataClientWithIntent}" Margin="10, 10, 0, 0" Click="RadioButton_Click">Use wav file and intent detection</RadioButton>
-                    <Label Margin="30,0,0,0">(* LUIS registration is needed.)</Label>
                 </StackPanel>
             </GroupBox>
             <Grid Grid.Row="2" Margin="10, 0, 10, 10">

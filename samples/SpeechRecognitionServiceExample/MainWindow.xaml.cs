@@ -49,7 +49,7 @@
             this.Initialize();
         }
 
-        
+
         #region Properties
 
         /// <summary>
@@ -477,9 +477,10 @@
         /// <param name="e">The <see cref="PartialSpeechResponseEventArgs"/> instance containing the event data.</param>
         private void OnPartialResponseReceivedHandler(object sender, PartialSpeechResponseEventArgs e)
         {
-            this.WriteLine("--- Partial result received---");
-            this.WriteLine("{0}", e.PartialResult);
-            this.WriteLine();
+            //code to intercept partial response received if needed to customize
+            //  this.WriteLine("--- Partial result received---");
+            //   this.WriteLine("{0}", e.PartialResult);
+            //this.WriteLine();
         }
 
         /// <summary>
@@ -511,7 +512,7 @@
             Dispatcher.Invoke(() =>
             {
                 //  WriteLine("--- Microphone status change received by OnMicrophoneStatus() ---");
-                WriteLine("********* Microphone status: {0} *********", e.Recording);
+                WriteLine("********* Microphone status: {0} *********", e.Recording ? "On" : "Off");
                 if (e.Recording)
                 {
                     WriteLine("Please start speaking.");
@@ -525,7 +526,7 @@
 
         #region Methods
         /// <summary>
-        /// Saves the subscription key to isolated storage.
+        /// Saves the subscription key to isolated storage so we persist and retrieve 
         /// </summary>
         /// <param name="subscriptionKey">The subscription key.</param>
         private static void SaveSubscriptionKeyToIsolatedStorage(string subscriptionKey)
@@ -535,7 +536,7 @@
                 using (var oStream = new IsolatedStorageFileStream(IsolatedStorageSubscriptionKeyFileName, FileMode.Create, isoStore))
                 {
                     using (var writer = new StreamWriter(oStream))
-                    {
+                    {//get the subscription key
                         writer.WriteLine(subscriptionKey);
                     }
                 }
@@ -547,16 +548,15 @@
         /// </summary>
         private void Initialize()
         {
-            this.IsMicrophoneClientShortPhrase = true;
-            this.IsMicrophoneClientWithIntent = false;
-            this.IsMicrophoneClientDictation = false;
-            this.IsDataClientShortPhrase = false;
-            this.IsDataClientWithIntent = false;
-            this.IsDataClientDictation = false;
+            this.IsMicrophoneClientShortPhrase = false;
+            this.IsMicrophoneClientWithIntent = true;
+            this.IsMicrophoneClientDictation = true;
+          
 
             // Set the default choice for the group of checkbox.
             this._micRadioButton.IsChecked = true;
 
+            //get the speech api key
             this.SubscriptionKey = this.GetSubscriptionKeyFromIsolatedStorage();
         }
 
@@ -594,11 +594,11 @@
                 {
                     if (this.WantIntent)
                     {
-                        this.CreateDataRecoClientWithIntent();
+                       // this.CreateDataRecoClientWithIntent();
                     }
                     else
                     {
-                        this.CreateDataRecoClient();
+                       // this.CreateDataRecoClient();
                     }
                 }
 
@@ -669,6 +669,7 @@
                 this.LuisSubscriptionID);
             this.micClient.AuthenticationUri = this.AuthenticationUri;
             this.micClient.OnIntent += this.OnIntentHandler;
+            
 
             // Event handlers for speech recognition results
             this.micClient.OnMicrophoneStatus += this.OnMicrophoneStatus;
@@ -793,13 +794,23 @@
                 this.WriteLine("********* Final n-BEST Results *********");
                 for (int i = 0; i < e.PhraseResponse.Results.Length; i++)
                 {
+                    var displayText = e.PhraseResponse.Results[i].DisplayText;
+                    
+                    if (displayText.Contains("diwa") || displayText.Contains("diva") || displayText.Contains("deva") || displayText.Contains("dihva") || displayText.Contains("duva") )
+                    {
+                        displayText = displayText.Replace("diwa", "DEWA");
+                        displayText = displayText.Replace("diva", "DEWA");
+                        displayText = displayText.Replace("dihva", "DEWA");
+                        displayText = displayText.Replace("deva", "DEWA");
+                        displayText = displayText.Replace("duva", "DEWA");
+                    }
                     this.WriteLine(
                         "[{0}] Confidence={1}, Text=\"{2}\"",
                         i,
                         e.PhraseResponse.Results[i].Confidence,
-                        e.PhraseResponse.Results[i].DisplayText);
+                        displayText);
                 }
-
+                
                 this.WriteLine();
             }
         }
