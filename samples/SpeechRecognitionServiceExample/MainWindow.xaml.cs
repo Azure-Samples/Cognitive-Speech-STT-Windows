@@ -551,7 +551,7 @@
             this.IsMicrophoneClientShortPhrase = false;
             this.IsMicrophoneClientWithIntent = true;
             this.IsMicrophoneClientDictation = true;
-          
+
 
             // Set the default choice for the group of checkbox.
             this._micRadioButton.IsChecked = true;
@@ -594,11 +594,11 @@
                 {
                     if (this.WantIntent)
                     {
-                       // this.CreateDataRecoClientWithIntent();
+                        // this.CreateDataRecoClientWithIntent();
                     }
                     else
                     {
-                       // this.CreateDataRecoClient();
+                        // this.CreateDataRecoClient();
                     }
                 }
 
@@ -669,7 +669,7 @@
                 this.LuisSubscriptionID);
             this.micClient.AuthenticationUri = this.AuthenticationUri;
             this.micClient.OnIntent += this.OnIntentHandler;
-            
+
 
             // Event handlers for speech recognition results
             this.micClient.OnMicrophoneStatus += this.OnMicrophoneStatus;
@@ -743,37 +743,42 @@
         }
 
         /// <summary>
-        /// Sends the audio helper.
+        /// Sends the audio helper if wav file is selcted
         /// </summary>
         /// <param name="wavFileName">Name of the wav file.</param>
         private void SendAudioHelper(string wavFileName)
         {
-            using (FileStream fileStream = new FileStream(wavFileName, FileMode.Open, FileAccess.Read))
+            if (!string.IsNullOrEmpty(wavFileName))
             {
-                // Note for wave files, we can just send data from the file right to the server.
-                // In the case you are not an audio file in wave format, and instead you have just
-                // raw data (for example audio coming over bluetooth), then before sending up any 
-                // audio data, you must first send up an SpeechAudioFormat descriptor to describe 
-                // the layout and format of your raw audio data via DataRecognitionClient's sendAudioFormat() method.
-                int bytesRead = 0;
-                byte[] buffer = new byte[1024];
-
-                try
+                using (FileStream fileStream = new FileStream(wavFileName, FileMode.Open, FileAccess.Read))
                 {
-                    do
+                    // Note for wave files, we can just send data from the file right to the server.
+                    // In the case you are not an audio file in wave format, and instead you have just
+                    // raw data (for example audio coming over bluetooth), then before sending up any 
+                    // audio data, you must first send up an SpeechAudioFormat descriptor to describe 
+                    // the layout and format of your raw audio data via DataRecognitionClient's sendAudioFormat() method.
+                    int bytesRead = 0;
+                    byte[] buffer = new byte[1024];
+
+                    try
                     {
-                        // Get more Audio data to send into byte buffer.
-                        bytesRead = fileStream.Read(buffer, 0, buffer.Length);
+                        do
+                        {
+                            // Get more Audio data to send into byte buffer.
+                            bytesRead = fileStream.Read(buffer, 0, buffer.Length);
 
-                        // Send of audio data to service. 
-                        this.dataClient.SendAudio(buffer, bytesRead);
+                            // Send of audio data to service. 
+                            this.dataClient.SendAudio(buffer, bytesRead);
+                        }
+                        while (bytesRead > 0);
                     }
-                    while (bytesRead > 0);
-                }
-                finally
-                {
-                    // We are done sending audio.  Final recognition results will arrive in OnResponseReceived event call.
-                    this.dataClient.EndAudio();
+
+                    finally
+                    {
+                        // We are done sending audio.  Final recognition results will arrive in OnResponseReceived event call.
+                        this.dataClient.EndAudio();
+
+                    }
                 }
             }
         }
@@ -795,8 +800,8 @@
                 for (int i = 0; i < e.PhraseResponse.Results.Length; i++)
                 {
                     var displayText = e.PhraseResponse.Results[i].DisplayText;
-                    
-                    if (displayText.Contains("diwa") || displayText.Contains("diva") || displayText.Contains("deva") || displayText.Contains("dihva") || displayText.Contains("duva") )
+
+                    if (displayText.Contains("diwa") || displayText.Contains("diva") || displayText.Contains("deva") || displayText.Contains("dihva") || displayText.Contains("duva"))
                     {
                         displayText = displayText.Replace("diwa", "DEWA");
                         displayText = displayText.Replace("diva", "DEWA");
@@ -810,7 +815,7 @@
                         e.PhraseResponse.Results[i].Confidence,
                         displayText);
                 }
-                
+
                 this.WriteLine();
             }
         }
