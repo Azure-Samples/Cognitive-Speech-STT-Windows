@@ -18,13 +18,6 @@
     <_TargetsPath Condition=" '$(_TargetsPath)' == '' and exists('$(ExtendedTargetsPath)') ">$(ExtendedTargetsPath)</_TargetsPath>
     <_TargetsPath Condition=" '$(_TargetsPath)' == '' and exists('$(MSBuildToolsPath)') ">$(MSBuildToolsPath)</_TargetsPath>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
-    <UseVSHostingProcess>false</UseVSHostingProcess>
-    <OutputPath>obj\amd64\</OutputPath>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <OutputPath>objd\amd64\</OutputPath>
-  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
     <OutputPath>bin\x86\Release\</OutputPath>
     <PlatformTarget>x86</PlatformTarget>
@@ -71,12 +64,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="SpeechClient, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86" Condition=" '$(Platform)' == 'x86' ">
+    <Reference Include="SpeechClient, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
       <HintPath>..\..\packages\Microsoft.ProjectOxford.SpeechRecognition-x86.1.0.0.6\lib\SpeechClient.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="SpeechClient, Version=0.0.0.0, Culture=neutral, processorArchitecture=AMD64" Condition=" '$(Platform)' == 'x64' ">
-      <HintPath>..\..\packages\Microsoft.ProjectOxford.SpeechRecognition-x64.1.0.0.6\lib\SpeechClient.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Configuration" />
