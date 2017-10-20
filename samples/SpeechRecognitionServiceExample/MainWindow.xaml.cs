@@ -157,25 +157,14 @@ namespace Microsoft.CognitiveServices.SpeechRecognition
         }
 
         /// <summary>
-        /// Gets the LUIS application identifier.
+        /// Gets the LUIS endpoint URL.
         /// </summary>
         /// <value>
-        /// The LUIS application identifier.
+        /// The LUIS endpoint URL.
         /// </value>
-        private string LuisAppId
+        private string LuisEndpointUrl
         {
-            get { return ConfigurationManager.AppSettings["luisAppID"]; }
-        }
-
-        /// <summary>
-        /// Gets the LUIS subscription identifier.
-        /// </summary>
-        /// <value>
-        /// The LUIS subscription identifier.
-        /// </value>
-        private string LuisSubscriptionID
-        {
-            get { return ConfigurationManager.AppSettings["luisSubscriptionID"]; }
+            get { return ConfigurationManager.AppSettings["LuisEndpointUrl"]; }
         }
 
         /// <summary>
@@ -204,8 +193,7 @@ namespace Microsoft.CognitiveServices.SpeechRecognition
         {
             get
             {
-                return !string.IsNullOrEmpty(this.LuisAppId) &&
-                    !string.IsNullOrEmpty(this.LuisSubscriptionID) &&
+                return !string.IsNullOrEmpty(this.LuisEndpointUrl) &&
                     (this.IsMicrophoneClientWithIntent || this.IsDataClientWithIntent);
             }
         }
@@ -440,11 +428,10 @@ namespace Microsoft.CognitiveServices.SpeechRecognition
             this.WriteLine("--- Start microphone dictation with Intent detection ----");
 
             this.micClient =
-                SpeechRecognitionServiceFactory.CreateMicrophoneClientWithIntent(
-                this.DefaultLocale,
-                this.SubscriptionKey,
-                this.LuisAppId,
-                this.LuisSubscriptionID);
+                SpeechRecognitionServiceFactory.CreateMicrophoneClientWithIntentUsingEndpointUrl(
+                    this.DefaultLocale,
+                    this.SubscriptionKey,
+                    this.LuisEndpointUrl);
             this.micClient.AuthenticationUri = this.AuthenticationUri;
             this.micClient.OnIntent += this.OnIntentHandler;
 
@@ -503,11 +490,10 @@ namespace Microsoft.CognitiveServices.SpeechRecognition
         /// </summary>
         private void CreateDataRecoClientWithIntent()
         {
-            this.dataClient = SpeechRecognitionServiceFactory.CreateDataClientWithIntent(
+            this.dataClient = SpeechRecognitionServiceFactory.CreateDataClientWithIntentUsingEndpointUrl(
                 this.DefaultLocale,
                 this.SubscriptionKey,
-                this.LuisAppId,
-                this.LuisSubscriptionID);
+                this.LuisEndpointUrl);
             this.dataClient.AuthenticationUri = this.AuthenticationUri;
 
             // Event handlers for speech recognition results
