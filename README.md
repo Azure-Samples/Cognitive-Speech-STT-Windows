@@ -4,7 +4,7 @@ This repository contains samples for transcribing speech to text using Microsoft
 
 * [Learn about Microsoft Speech Service](https://azure.microsoft.com/services/cognitive-services/speech/)
 * [Read the documentation](https://docs.microsoft.com/azure/cognitive-services/speech/home)
-* [Find more SDKs & Samples](https://docs.microsoft.com/azure/cognitive-services/speech/getstarted/getstartedclientlibraries)
+* [Find more SDKs & samples](https://docs.microsoft.com/azure/cognitive-services/speech/getstarted/getstartedclientlibraries)
 
 ## The C# client library
 
@@ -27,15 +27,15 @@ This sample is a Windows WPF application to demonstrate the use of Speech-to-Tex
 2. Navigate to the folder where you cloned the repository.
 3. Double-click the Visual Studio 2015 Solution file `SpeechToText-WPF-Sample.sln`.
 4. There are 2 projects in the solution. One is for the x86 platform, and the other is for the x64 platform. Choose the build platform (x86 or x64) and configuration (Debug or Release) of your preference, and build the project.
-5. For intent recognition to work, you need to sign up [Language Understanding Intelligent Service (LUIS)](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). Please put your LUIS App ID and Subscription ID in `app.config` file. The `app.config` file can be located from Solution Explorer.
-
-<img src="SampleScreenshots/SampleRunning1.png" width="100%"/>
+5. For intent recognition to work, you need to sign up [Language Understanding Intelligent Service (LUIS)](https://azure.microsoft.com/services/cognitive-services/language-understanding-intelligent-service/). Please put the endpoint URL of your LUIS app in `app.config` file in the `samples/SpeechRecognitionServiceExample` folder. For more infomraiton on the endpoint URL of LUIS app, see [Publish LUIS App](https://docs.microsoft.com/azure/cognitive-services/luis/luis-get-started-create-app#publish-your-app). You must replace the character `&` in LUIS endpoint URL with the `&amp;` to ensure that the URL is correctly interpreted by the XML parser.
 
 ### Run the sample
 
 Before running the sample, you must first have a [subscription key](https://azure.microsoft.com/try/cognitive-services/). You can get free trial subscription keys from the [Cognitive Services Subscription](https://azure.microsoft.com/try/cognitive-services/) page. After you select the Speech API, click Get API Key to get the key. It returns a primary and secondary key. Both keys are tied to the same quota, so you may use either key.
 
 Paste your subscription key to the text edit box saying "Paste your subscription key here to start" on the top right corner. You can choose to persist your subscription key in your machine by clicking "Save Key" button. When you want to delete the subscription key from the machine, click "Delete Key" to remove it from your machine.
+
+<img src="SampleScreenshots/SampleRunning1.png" width="100%"/>
 
 Microsoft will receive the audio you upload and may use them to improve the speech API and related services. By submitting an audio, you confirm you have consent from everyone in it.
 
