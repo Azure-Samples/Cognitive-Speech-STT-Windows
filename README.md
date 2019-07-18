@@ -1,4 +1,19 @@
-# September 2018: New Microsoft Cognitive Services Speech SDK available
+---
+page_type: sample
+languages:
+- csharp
+products:
+- azure
+- dotnet
+- azure-cognitive-services
+description: "The sample uses a HttpTrigger to accept a dataset from a blob and performs a set of tasks."
+name: "Samples for Microsoft C# speech client library"
+urlFragment: samples-for-ms-csharp-speech-client
+---
+
+# Samples for Microsoft C# speech client library
+
+**September 2018: New Microsoft Cognitive Services Speech SDK available**
 
 We released a new Speech SDK supporting the new [Speech Service](https://azure.microsoft.com/services/cognitive-services/speech-services). The new Speech SDK comes with support for Windows, Android, Linux, Javascript and iOS.
 
@@ -6,9 +21,6 @@ Please check out [Microsoft Cognitive Services Speech SDK](https://aka.ms/csspee
 
 
 >NOTE: The content of this repository is supporting the [Bing Speech Service](https://docs.microsoft.com/en-us/azure/cognitive-services/Speech/Home), not the new [Speech Service](https://azure.microsoft.com/services/cognitive-services/speech-services). Bing Speech Service has been deprecated, please use the new Speech Service.
-
-
-# Samples for Microsoft C# speech client library
 
 This repository contains samples for transcribing speech to text using Microsoft Speech Service, an offering within [Microsoft Cognitive Services](https://azure.microsoft.com/services/cognitive-services/), formerly known as Project Oxford.
 
