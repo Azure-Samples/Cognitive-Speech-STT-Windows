@@ -1,16 +1,3 @@
----
-page_type: sample
-languages:
-- csharp
-products:
-- azure
-- dotnet
-- azure-cognitive-services
-description: "The sample uses a HttpTrigger to accept a dataset from a blob and performs a set of tasks."
-name: "Samples for Microsoft C# speech client library"
-urlFragment: samples-for-ms-csharp-speech-client
----
-
 # Samples for Microsoft C# speech client library
 
 **September 2018: New Microsoft Cognitive Services Speech SDK available**
